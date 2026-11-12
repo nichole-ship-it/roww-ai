@@ -1,0 +1,28 @@
+/* roww.ai shared styles. Colors and fonts from roww-requirements.md. */
+:root {
+  --crimson: #8B1E2D;
+  --navy: #14213D;
+  --cream: #F6F1E7;
+  --orange: #C8572B;
+  --brass: #B8893B;
+  --tufts: #3E8EDE;
+  --stanford: #8C1515;
+  --font-head: "Libre Caslon Text", Georgia, serif;
+  --font-body: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+.setup {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+.setup h1 { font-family: var(--font-head); font-size: 2.5rem; line-height: 1.1; margin: 0.5rem 0 1rem; }
+.eyebrow { margin: 0; color: var(--crimson); font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; font-size: 0.85rem; }
