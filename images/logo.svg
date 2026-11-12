@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="Roww: Family Blades logo">
+  <title>Roww</title>
+  <!-- Family Blades: Tufts blue (left) and Stanford cardinal (right), for light backgrounds -->
+  <g transform="translate(100,185) rotate(-20)"><line x1="0" y1="0" x2="0" y2="-108" stroke="#14213D" stroke-width="6" stroke-linecap="round"/><path d="M -4 -100 L -4 -165 Q 14 -174 30 -160 L 32 -112 Q 14 -96 -4 -100 Z" fill="#3E8EDE"/><rect x="-4" y="-140" width="35" height="9" fill="#F6F1E7"/></g>
+  <g transform="translate(100,185) rotate(20) scale(-1,1)"><line x1="0" y1="0" x2="0" y2="-108" stroke="#14213D" stroke-width="6" stroke-linecap="round"/><path d="M -4 -100 L -4 -165 Q 14 -174 30 -160 L 32 -112 Q 14 -96 -4 -100 Z" fill="#8C1515"/><rect x="-4" y="-140" width="35" height="9" fill="#F6F1E7"/></g>
+  <text x="215" y="128" font-family="'Libre Caslon Text', Georgia, serif" font-size="84" font-weight="700" letter-spacing="8" fill="#14213D">ROWW</text>
+</svg>

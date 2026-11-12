@@ -1,0 +1,11 @@
+{
+  "note": "SAMPLE DATA. Phase 3 replaces this with the real 2026/27 schedules from the official team sites. Dates are YYYY-MM-DD; times are Eastern, 24-hour HH:MM.",
+  "races": [
+    { "team": "tufts", "date": null, "time_et": null, "event": "Malden Racing Series", "location": "Malden River", "home": true, "result": null, "sample": true },
+    { "team": "tufts", "date": null, "time_et": null, "event": "New England Rowing Championships", "location": "Lake Quinsigamond, Worcester, MA", "home": false, "result": null, "sample": true },
+    { "team": "tufts", "date": null, "time_et": null, "event": "IRA National Championships", "location": null, "home": false, "result": null, "sample": true },
+    { "team": "stanford", "date": null, "time_et": null, "event": "Spring season opener", "location": null, "home": false, "result": null, "sample": true },
+    { "team": "stanford", "date": null, "time_et": null, "event": "Big Row vs. Cal", "location": "Redwood Shores, CA", "home": true, "result": null, "sample": true },
+    { "team": "stanford", "date": null, "time_et": null, "event": "NCAA Championships", "location": null, "home": false, "result": null, "sample": true }
+  ]
+}
