@@ -1,0 +1,41 @@
+{
+  "how_to_edit": "Change any text between quotes. Wrap words in **double stars** to make them bold. Anything in [square brackets] shows as a yellow 'to do' placeholder. To add a result, copy one { \"when\": ..., \"text\": ... } line, paste it where you want it, and keep the commas between lines.",
+  "name": "Parker Mace",
+  "team": "Tufts Men's Rowing · Go Jumbos",
+  "team_key": "tufts",
+  "subtitle": "Junior · Rower · Mechanical Engineering",
+  "hero": { "image": "parker-shell", "alt": "Parker carrying a Tufts shell on race day", "focus": "50% 35%" },
+  "intro": "[A short intro in your words: how Parker started rowing, what he loves about it, and life at Tufts beyond the boathouse.]",
+  "facts": [
+    { "value": "Newton North", "label": "High school" },
+    { "value": "CRI captain", "label": "Club, 2018 to 2024" },
+    { "value": "NIRC champion", "label": "Third varsity eight, 2026" }
+  ],
+  "school": {
+    "title": "At Tufts",
+    "items": [
+      { "when": "Oct 2026", "text": "Head of the Charles, Collegiate Eights: third varsity eight, 28th of 38" },
+      { "when": "Oct 2026", "text": "Head of the Kevin: 2 seat in the second varsity eight, 5th overall" },
+      { "when": "May 2026", "text": "**NIRC champion**, third varsity eight: won the grand final in 6:29.670, 3.52 seconds ahead of Trinity" },
+      { "when": "May 2026", "text": "**New England Rowing Championships**, 1st in the third varsity eight as Tufts won the team points trophy" },
+      { "when": "Oct 2025", "text": "Head of the Charles, Collegiate Eights: 18th of 42 in the third varsity eight" },
+      { "when": "Oct 2024", "text": "Head of the Charles debut in the fourth varsity eight, 21st place" }
+    ],
+    "link": { "text": "Parker's official Tufts roster page", "url": "https://gotuftsjumbos.com/sports/mens-rowing/roster/parker-mace/16356" }
+  },
+  "youth": {
+    "title": "High school and junior rowing",
+    "items": [
+      { "when": "2024", "text": "**Bronze**, Men's Youth 8+, USRowing Northeast Youth Championships, rowing in the stroke seat for CRI" },
+      { "when": "2024", "text": "USRowing Youth Nationals, Men's Youth 8+, stroke seat for CRI" },
+      { "when": "2023", "text": "Head of the Charles, Men's Youth Eights, CRI A boat: [RESULT]" },
+      { "when": "2018–2024", "text": "Community Rowing, Inc. (CRI) rower and team captain" }
+    ]
+  },
+  "gallery": [
+    { "image": "parker-medal-dock", "alt": "Parker at the dock with his medal after a race" },
+    { "image": "parker-family-medal", "alt": "Parker with family and his championship medal" },
+    { "image": "tufts-bridge", "alt": "Tufts eight rowing under a brick bridge on the Charles" },
+    { "image": "parker-grandmother", "alt": "Parker with his grandmother on race day" }
+  ]
+}

@@ -1,11 +1,26 @@
 {
-  "note": "SAMPLE DATA. Phase 3 replaces this with the real 2026/27 schedules from the official team sites. Dates are YYYY-MM-DD; times are Eastern, 24-hour HH:MM.",
+  "how_to_edit": "One line per race. date and end_date are YYYY-MM-DD (end_date only for multi-day regattas, otherwise null). time_et is the start time in Eastern, 24-hour HH:MM, or null if TBA; Stanford races also show Pacific automatically. venue is home, away or neutral. result is plain text shown once the race is over, or null. link is an optional recap or results page.",
+  "updated": "2026-11-12",
+  "sources": {
+    "tufts": "https://gotuftsjumbos.com/sports/mens-rowing/schedule",
+    "stanford": "https://gostanford.com/sports/womens-rowing/schedule"
+  },
+  "notes": {
+    "tufts": "Tufts hasn't posted its spring 2027 races yet. They'll appear here once it does.",
+    "stanford": ""
+  },
   "races": [
-    { "team": "tufts", "date": null, "time_et": null, "event": "Malden Racing Series", "location": "Malden River", "home": true, "result": null, "sample": true },
-    { "team": "tufts", "date": null, "time_et": null, "event": "New England Rowing Championships", "location": "Lake Quinsigamond, Worcester, MA", "home": false, "result": null, "sample": true },
-    { "team": "tufts", "date": null, "time_et": null, "event": "IRA National Championships", "location": null, "home": false, "result": null, "sample": true },
-    { "team": "stanford", "date": null, "time_et": null, "event": "Spring season opener", "location": null, "home": false, "result": null, "sample": true },
-    { "team": "stanford", "date": null, "time_et": null, "event": "Big Row vs. Cal", "location": "Redwood Shores, CA", "home": true, "result": null, "sample": true },
-    { "team": "stanford", "date": null, "time_et": null, "event": "NCAA Championships", "location": null, "home": false, "result": null, "sample": true }
+    { "team": "tufts", "date": "2026-10-10", "end_date": null, "time_et": "08:00", "event": "Head of the Kevin", "location": "Charles River, Cambridge, MA", "venue": "away", "result": "1V8 3rd overall (14:46.6); 2V8 5th overall (15:08.3)", "link": "https://gotuftsjumbos.com/news/2026/10/10/mens-rowing-begins-new-year-at-head-of-the-kevin-regatta.aspx" },
+    { "team": "tufts", "date": "2026-10-18", "end_date": null, "time_et": "10:00", "event": "Head of the Charles Regatta", "location": "Charles River, Boston, MA", "venue": "away", "result": "1V8 runner-up of 38 in Collegiate Eights (14:25.063); 2V8 20th; 3V8 28th", "link": "https://gotuftsjumbos.com/news/2026/10/18/mens-rowing-1v8-posts-runner-up-finish-at-head-of-the-charles-regatta.aspx" },
+
+    { "team": "stanford", "date": "2026-11-08", "end_date": null, "time_et": "10:45", "event": "San Diego Fall Classic", "location": "San Diego, CA", "venue": "neutral", "result": "1st, 3rd and 4th in the Women's Open 8+", "link": null },
+    { "team": "stanford", "date": "2026-11-14", "end_date": null, "time_et": null, "event": "Little Big Row vs. California", "location": "Berkeley, CA / Redwood City, CA", "venue": "home", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-03-13", "end_date": null, "time_et": null, "event": "vs. Oregon State", "location": "Redwood City, CA", "venue": "home", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-04-03", "end_date": null, "time_et": null, "event": "at Tennessee", "location": "Oak Ridge, TN", "venue": "away", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-04-04", "end_date": null, "time_et": null, "event": "vs. Duke, Clemson, Tennessee, Alabama, Iowa", "location": "Oak Ridge, TN", "venue": "neutral", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-04-17", "end_date": null, "time_et": null, "event": "Big Row vs. California", "location": "Redwood City, CA", "venue": "home", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-04-24", "end_date": null, "time_et": null, "event": "at Texas", "location": "Austin, TX", "venue": "away", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-05-14", "end_date": "2027-05-15", "time_et": null, "event": "ACC Championships", "location": "Lake Wheeler, NC", "venue": "neutral", "result": null, "link": null },
+    { "team": "stanford", "date": "2027-05-28", "end_date": "2027-05-30", "time_et": null, "event": "NCAA Championships", "location": "Sarasota, FL", "venue": "neutral", "result": null, "link": null }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "how_to_edit": "Change any text between quotes. Wrap words in **double stars** to make them bold. Anything in [square brackets] shows as a yellow 'to do' placeholder. To add a result, copy one { \"when\": ..., \"text\": ... } line, paste it where you want it, and keep the commas between lines.",
+  "name": "Evelyn \"Evie\" Mace",
+  "team": "Stanford Women's Rowing · Fear the Tree",
+  "team_key": "stanford",
+  "subtitle": "Freshman · Coxswain · 2026 USA U19 National Team",
+  "hero": { "image": "evie-cox", "alt": "Evie in the coxswain seat of a red shell", "focus": "50% 35%" },
+  "intro": "[A short intro in your words: how Evie found the coxswain seat, four years at CRI, and her first season on The Farm.]",
+  "facts": [
+    { "value": "5th in the world", "label": "U19 World Championships, 2026" },
+    { "value": "Team USA", "label": "U19 National Team coxswain" },
+    { "value": "National Merit", "label": "Finalist" }
+  ],
+  "school": {
+    "title": "At Stanford",
+    "items": [
+      { "when": "2026–27", "text": "Freshman coxswain, Stanford Women's Rowing" },
+      { "when": "Fall 2026", "text": "[First fall racing highlights]" }
+    ],
+    "link": { "text": "Evie's official Stanford roster page", "url": "https://gostanford.com/sports/womens-rowing/roster/player/evelyn-mace" }
+  },
+  "youth": {
+    "title": "High school and junior rowing",
+    "items": [
+      { "when": "2026", "text": "**USA U19 National Team**, coxswain of the Women's 8+, **5th in the world** at the U19 World Championships in Plovdiv, Bulgaria" },
+      { "when": "2026", "text": "USRowing Youth Nationals, U19 Women's 8+, 13th" },
+      { "when": "2025", "text": "**Gold**, U19 Women's 8+, Canadian Henley" },
+      { "when": "2025", "text": "Head of the Charles, Women's Youth Eights, 12th" },
+      { "when": "2022–2026", "text": "Community Rowing, Inc. (CRI), with summers at Cambridge Boat Club" }
+    ]
+  },
+  "gallery": [
+    { "image": "evie-usa-kit", "alt": "Evie in her US Junior National Team kit" },
+    { "image": "evie-cri-above", "alt": "Evie coxing a CRI eight, seen from above" },
+    { "image": "evie-cri-crew", "alt": "Evie with her CRI crew at a youth championship venue" },
+    { "image": "cri-carry-shell", "alt": "CRI crew carrying a red shell up the dock" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "how_to_edit": "Each block is one section of the What We Offer page, in order. image is a photo name from the images folder (without -sm or -lg), or null for a placeholder. button_link can be #signup or a web address (for example a gear store).",
+  "offerings": [
+    {
+      "id": "meetups",
+      "title": "Parent Meetups",
+      "headline": "Tailgates on the bank and dinners on race weekends",
+      "text": "Pop-up tents along the Charles, a blanket on the grass at Redwood Shores, a table for twelve after the final. We find the spot and save you a seat.",
+      "image": "family-shore",
+      "alt": "The family celebrating on the shore after a race",
+      "button_text": "Get meetup invites",
+      "button_link": "#signup"
+    },
+    {
+      "id": "newsletters",
+      "title": "Newsletters",
+      "headline": "Results, photos and what's next",
+      "text": "A friendly roundup after every race weekend: how the boats did, the best photos, and the dates to put on the fridge.",
+      "image": "parker-medal-dock",
+      "alt": "Parker at the dock with his medal after a race",
+      "button_text": "Get the newsletter",
+      "button_link": "#signup"
+    },
+    {
+      "id": "announcements",
+      "title": "Announcements",
+      "headline": "Race day news, fast",
+      "text": "Start times move. Lineups change. Weather happens. Get a quick heads-up so you're on the bridge at the right moment.",
+      "image": "tufts-bridge",
+      "alt": "Spectators on a bridge watching a Tufts eight pass below",
+      "button_text": "Get race day alerts",
+      "button_link": "#signup"
+    },
+    {
+      "id": "gear",
+      "title": "Gear",
+      "headline": "Cheer in style",
+      "text": "Stadium blankets, knit hats and team colors for the cold mornings of fall racing. The first gear drop is in the works.",
+      "image": null,
+      "alt": "",
+      "placeholder": "Photo coming soon: Roww gear",
+      "button_text": "Hear about the first gear drop",
+      "button_link": "#signup"
+    },
+    {
+      "id": "events",
+      "title": "Events",
+      "headline": "Head of the Charles weekend and more",
+      "text": "Our signature weekend each October on the Charles, plus watch parties for the big championships out west.",
+      "image": "charles-fall-eight",
+      "alt": "An eight racing on the Charles River with fall foliage",
+      "button_text": "Get event invites",
+      "button_link": "#signup"
+    }
+  ]
+}
