@@ -4,7 +4,7 @@ Static family rowing site. Full requirements: `roww-requirements.md` (read it fi
 
 - Plain HTML, CSS and a little JavaScript. No framework, no build step.
 - Editable content lives in `data/*.json`; layout lives in the HTML/CSS.
-- Deploys to Netlify from the `main` branch (publish directory: repo root).
+- Hosted on GitHub Pages from the `main` branch, repo root. DNS is at Porkbun.
 - The owner hasn't coded in 20 years: explain in plain English and ask before anything hard to undo (DNS, deleting files, paid services).
 - Never touch MX, TXT, SPF, DKIM or DMARC records for roww.ai (Google Workspace email).
 - Work in phases; stop after each for review.

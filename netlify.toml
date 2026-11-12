@@ -1,4 +1,0 @@
-# Netlify settings. No build step: the site is served straight from the repo root.
-[build]
-  publish = "."
-  command = ""

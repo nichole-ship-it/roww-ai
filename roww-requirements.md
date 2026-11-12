@@ -14,7 +14,7 @@ The site is also my Constant Contact account's home base, so I can experience th
 ## Tech approach
 * A simple static site: plain HTML, CSS and a little JavaScript. No framework, no build step, nothing I'd need to maintain.
 * Keep content I'll update often (schedules, accomplishments, offerings) in simple data files (JSON or Markdown) so I can edit text without touching layout code.
-* Put the code in a GitHub repository I own, and deploy with Netlify's free plan, with automatic deploys whenever changes are pushed.
+* Put the code in a GitHub repository I own, and host it free on GitHub Pages, with automatic deploys whenever changes are pushed. (Changed from Netlify on Nov 12, 2026, to avoid a second account.)
 * Connect the custom domain roww.ai. Important: I already use Google Workspace on roww.ai for email. Do not change or remove any existing MX, TXT, SPF, DKIM or DMARC records. Walk me through the DNS steps at my registrar one at a time and show me what will change before I save anything.
 
 ## Pages
@@ -76,7 +76,7 @@ Mockups: https://claude.ai/artifact/YMuGbrrvQvL9euMF2iiAjs
 2. **Design shell:** shared header, footer, colors, fonts, logo, and the Home page with placeholders.
 3. **Content pages:** Schedules with real data, Parker, Evie, What We Offer.
 4. **Constant Contact:** script on every page, inline form in place, test signup confirmed.
-5. **Launch:** deploy to Netlify, connect roww.ai safely, confirm email still works.
+5. **Launch:** publish on GitHub Pages, connect roww.ai safely, confirm email still works.
 6. **Handoff:** a one-page "How to update the site" guide covering how to change a schedule entry, add an accomplishment, swap a photo, and publish.
 
 ## Done means
@@ -85,3 +85,7 @@ Mockups: https://claude.ai/artifact/YMuGbrrvQvL9euMF2iiAjs
 * A test signup lands in my Constant Contact list.
 * My roww.ai Gmail still sends and receives.
 * I can make a simple text update myself by following the handoff guide.
+
+## Hosting record (Nov 12, 2026)
+* Domain registrar and DNS: Porkbun. Email: Google Workspace (MX smtp.google.com, SPF TXT). Leave those alone.
+* Website records to add at Porkbun: four A records on the bare domain (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and CNAME www -> nichole-ship-it.github.io.
