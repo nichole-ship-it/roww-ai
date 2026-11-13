@@ -24,6 +24,10 @@
       .replace(/\[([^\]]+)\]/g, '<mark class="todo">[$1]</mark>');
   }
   function photo(name, alt, sizes, extra) {
+    // A name with a file extension (for example "race-day.jpg") is used as-is: handy for photos uploaded on GitHub.
+    if (/\.[a-z0-9]+$/i.test(name)) {
+      return '<img src="images/' + esc(name) + '" alt="' + esc(alt) + '"' + (extra || '') + '>';
+    }
     return '<img src="images/' + esc(name) + '-sm.webp" srcset="images/' + esc(name) + '-sm.webp 800w, images/' +
       esc(name) + '-lg.webp 1400w" sizes="' + (sizes || '100vw') + '" alt="' + esc(alt) + '"' + (extra || '') + '>';
   }

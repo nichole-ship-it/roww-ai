@@ -1,6 +1,6 @@
 # roww.ai
 
-Static family rowing site. Full requirements: `roww-requirements.md` (read it first).
+Static family rowing site. Full requirements: `roww-requirements.md` (read it first). Owner's editing guide: `UPDATING.md` (keep it accurate when data formats change).
 
 - Plain HTML, CSS and a little JavaScript. No framework, no build step.
 - Editable content lives in `data/*.json`; layout lives in the HTML/CSS.
