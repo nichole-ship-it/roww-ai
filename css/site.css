@@ -284,3 +284,15 @@ mark.todo { background: #FFF1B8; color: var(--navy); padding: 0 3px; border-radi
 /* Constant Contact inline signup form (in the crimson signup band) */
 .cc-form { background: var(--paper); color: var(--navy); border-radius: 8px; padding: 8px; min-height: 220px; min-width: 0; }
 .cc-form .ctct-inline-form { width: 100%; }
+
+/* Make the Constant Contact inline form match Roww's look (overrides Constant Contact's default styles). */
+.cc-form .ctct-form-embed.form_0 .ctct-form-defaults,
+.cc-form .ctct-form-defaults { background: transparent !important; border: 0 !important; box-shadow: none !important; padding: 20px !important; font-family: var(--font-body) !important; color: var(--navy) !important; }
+.cc-form .ctct-form-header { font-family: var(--font-head) !important; font-size: 1.6rem !important; font-weight: 700 !important; color: var(--navy) !important; line-height: 1.15 !important; }
+.cc-form .ctct-form-text, .cc-form .ctct-form-label, .cc-form .ctct-form-footer, .cc-form #gdpr_text, .cc-form .ctct-gdpr-text { font-family: var(--font-body) !important; color: var(--navy-soft) !important; }
+.cc-form .ctct-form-label { color: var(--navy) !important; font-weight: 600 !important; }
+.cc-form .ctct-form-element { font-family: var(--font-body) !important; font-size: 16px !important; border: 1px solid #CFC6B4 !important; border-radius: 6px !important; min-height: 48px !important; color: var(--navy) !important; background: #fff !important; }
+.cc-form .ctct-form-element:focus { outline: 3px solid var(--orange) !important; outline-offset: 1px !important; border-color: var(--navy) !important; }
+.cc-form .ctct-form-button { background: var(--crimson) !important; border: 0 !important; border-radius: 999px !important; min-height: 48px !important; font-family: var(--font-body) !important; font-weight: 700 !important; font-size: 1rem !important; color: #fff !important; }
+.cc-form .ctct-form-button:hover { background: var(--crimson-dark) !important; }
+.cc-form .ctct-form-success { font-family: var(--font-body) !important; color: var(--navy) !important; }
