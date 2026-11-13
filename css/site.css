@@ -280,3 +280,7 @@ mark.todo { background: #FFF1B8; color: var(--navy); padding: 0 3px; border-radi
 .offer-headline { font-weight: 600; font-size: 1.1rem; color: var(--crimson); }
 .offer-copy p { color: var(--navy-soft); font-size: 1.05rem; max-width: 34em; }
 .offer-copy .btn { margin-top: 4px; }
+
+/* Constant Contact inline signup form (in the crimson signup band) */
+.cc-form { background: var(--paper); color: var(--navy); border-radius: 8px; padding: 8px; min-height: 220px; min-width: 0; }
+.cc-form .ctct-inline-form { width: 100%; }
